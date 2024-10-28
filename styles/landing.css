@@ -51,7 +51,7 @@ p {
 /* LINKS ----------------------------------------------------*/
 a,
 a:visited { 
-	color: #008000;
+	color: purple;
 	text-decoration: none;
 }
 
@@ -63,29 +63,16 @@ a:active {
 
 a:focus {
 	outline: 1px dotted;
-
-	/* Page Header */
-.page-header {
-	position: relative;
 }
 
 
 
 /* MAIN ------------------------------------------------*/
-.second-header {
-	position: relative;
+
+.welcome-banner {
+	margin-left: 22%;
 }
 
-.building-bg {
-	position: absolute;
-	top: 50%;
-	left: 0;
-	right: 0;
-	z-index: 1;
-	transform: translateY(-50%);
-	margin: 0;
-	font-size: 3rem;
-	color: #fff;
-	text-transform: uppercase;
-	text-align: center;
+.building {
+	width: 100%;
 }
