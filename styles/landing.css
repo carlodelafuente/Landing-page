@@ -27,17 +27,18 @@ body {
 	font-weight: 400;
 	line-height: 1.5;
 	color: black;
-	background-color: white
+	background-color: rgb(243, 233, 215)
 }
 
 h1 {
-    color: rgb(44, 44, 126);
+    color: black;
 	font-family: "Charm Static", Georgia, Times, "Times New Roman", serif;
 	margin: .5em 0;
 	font-size: 1.75rem;
 }
 
 p {
+	line-height: 1.50rem;
 	margin: 0 0 1em;
 }
 
@@ -48,8 +49,8 @@ p {
 
 
 
-/* LINKS ----------------------------------------------------*/
-a,
+/* LINKS --------------------------------------------------- */
+/* a,
 a:visited { 
 	color: purple;
 	text-decoration: none;
@@ -63,16 +64,28 @@ a:active {
 
 a:focus {
 	outline: 1px dotted;
-}
+} */
 
 
 
-/* MAIN ------------------------------------------------*/
+/* MAIN ------------------------------------------------ */
 
 .welcome-banner {
-	margin-left: 22%;
+	color: rgb(28, 59, 49);
+	text-align: center;
 }
 
 .building {
 	width: 100%;
+}
+
+
+
+
+/* FOOTER ------------------------------------------------------ */
+
+.ending {
+	color: rgb(28, 59, 49);
+	background-color: rgb(245, 245, 220);
+	padding: 0rem 1rem;
 }
