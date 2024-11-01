@@ -141,7 +141,7 @@ a:focus {
 	font-size: 1.5rem;
 }
 
-.project-list {
+.project-list ul {
 	font-size: 1rem;
 	text-align: center;
 	list-style: none;
@@ -152,6 +152,10 @@ a:focus {
 	color: black;
 	line-height: 2.5rem;
 	padding: 1 1rem;
+}
+
+.project-list p {
+	text-align: center;
 }
 
 
